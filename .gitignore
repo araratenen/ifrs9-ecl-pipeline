@@ -15,3 +15,4 @@ models/*.pkl
 audit_analytics/
 data/*.parquet
 data/dashboard/loans_summary.csv
+.claude/
