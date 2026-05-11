@@ -9,7 +9,7 @@ accepted_slim.csv
 
 .pytest_cache/
 .jupyter_config/
-.claude/
+
 
 models/*.pkl
 audit_analytics/
