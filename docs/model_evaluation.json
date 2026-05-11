@@ -1,0 +1,26 @@
+{
+  "fit_timestamp": "2026-05-09T18:49:58",
+  "training_rows": 826604,
+  "test_rows": 353083,
+  "models": {
+    "logistic_regression": {
+      "auc": 0.7059,
+      "gini": 0.4118,
+      "ks": 0.2968,
+      "psi_train_test": 0.0111
+    },
+    "xgboost": {
+      "auc": 0.7084,
+      "gini": 0.4169,
+      "ks": 0.3022,
+      "psi_train_test": 0.0146,
+      "implementation": "sklearn.HistGradientBoostingClassifier",
+      "substitution_note": "xgboost.XGBClassifier was specified but xgboost requires libomp (`brew install libomp`) on macOS; HistGradientBoostingClassifier is the algorithmically equivalent sklearn-native substitute.",
+      "n_estimators": 200,
+      "max_depth": 4,
+      "learning_rate": 0.1
+    }
+  },
+  "primary_model": "logistic_regression",
+  "interpretability_cost_auc_pp": 0.25
+}

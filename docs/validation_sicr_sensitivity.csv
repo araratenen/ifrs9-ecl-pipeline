@@ -1,0 +1,9 @@
+threshold_rule,stage2_share_pct,total_ecl_baseline,change_from_2x_pct
+multiplier_1.25x,4.548,411741114.0,2.0332
+multiplier_1.50x,1.076,405974421.0,0.6041
+multiplier_2.00x_current,0.0494,403536501.0,0.0
+multiplier_2.50x,0.0015,403418423.0,-0.0293
+multiplier_3.00x,0.0,403413586.0,-0.0305
+absolute_pd_>5pct,80.1281,435716463.0,7.9745
+all_stage1_floor,0.0,403413586.0,-0.0305
+all_lifetime_ceiling,80.1281,435716463.0,7.9745

@@ -1,0 +1,5 @@
+bucket,count,pct
+zero (matured),800634,67.87
+short (<12),240857,20.42
+medium (12-36),138196,11.71
+long (>36),0,0.0

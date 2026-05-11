@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+
+accepted_slim.csv
+
+.pytest_cache/
+.jupyter_config/
+.claude/
+
+models/*.pkl
+audit_analytics/
+data/*.parquet
+data/dashboard/loans_summary.csv

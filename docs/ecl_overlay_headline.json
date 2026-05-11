@@ -1,0 +1,88 @@
+{
+  "as_of": "2019-04-01",
+  "scenarios": {
+    "baseline": {
+      "unrate_shock": 0.0,
+      "hpi_yoy_shock": 0.0,
+      "weight": 0.5
+    },
+    "adverse": {
+      "unrate_shock": 3.0,
+      "hpi_yoy_shock": -10.0,
+      "weight": 0.3
+    },
+    "severe": {
+      "unrate_shock": 5.0,
+      "hpi_yoy_shock": -20.0,
+      "weight": 0.2
+    }
+  },
+  "scenario_weights_sum": 1.0,
+  "step12_baseline_ecl": 403536500.5651313,
+  "scenario_totals": {
+    "baseline": 403536500.5651313,
+    "adverse": 379355791.32434916,
+    "severe": 376233657.61129355
+  },
+  "final_ecl": 390821719.20212907,
+  "overlay_multiplier": 0.9684916201007941,
+  "overlay_pct_change": -3.150837989920585,
+  "by_grade": {
+    "A": {
+      "count": 204038,
+      "ecl_baseline": 6770585.7906491915,
+      "ecl_final": 6639316.583055171,
+      "overlay_multiplier": 0.9806118389674177
+    },
+    "B": {
+      "count": 347299,
+      "ecl_baseline": 42087099.16035977,
+      "ecl_final": 40884617.97509869,
+      "overlay_multiplier": 0.9714287463557563
+    },
+    "C": {
+      "count": 332304,
+      "ecl_baseline": 112109837.78412154,
+      "ecl_final": 108371065.58867425,
+      "overlay_multiplier": 0.9666508107642912
+    },
+    "D": {
+      "count": 175155,
+      "ecl_baseline": 95633470.59263638,
+      "ecl_final": 92438835.92564839,
+      "overlay_multiplier": 0.9665950148291077
+    },
+    "E": {
+      "count": 84313,
+      "ecl_baseline": 90484251.32137105,
+      "ecl_final": 87544031.459507,
+      "overlay_multiplier": 0.967505728135813
+    },
+    "F": {
+      "count": 29238,
+      "ecl_baseline": 43527785.19849001,
+      "ecl_final": 42348544.32655383,
+      "overlay_multiplier": 0.9729083189838685
+    },
+    "G": {
+      "count": 7340,
+      "ecl_baseline": 12923470.717503324,
+      "ecl_final": 12595307.343591737,
+      "overlay_multiplier": 0.9746071793649729
+    }
+  },
+  "by_stage": {
+    "stage_1": {
+      "ecl_baseline": 147787069.2650262,
+      "ecl_final": 135139336.04216278
+    },
+    "stage_2": {
+      "ecl_baseline": 714084.2130748099,
+      "ecl_final": 647036.0729360576
+    },
+    "stage_3": {
+      "ecl_baseline": 255035347.08703026,
+      "ecl_final": 255035347.08703026
+    }
+  }
+}

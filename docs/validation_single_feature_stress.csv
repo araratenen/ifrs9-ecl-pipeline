@@ -1,0 +1,6 @@
+feature,worst_value,ecl_baseline,ecl_under_stress,delta_pct
+sub_grade,G5,403536501.0,443390919.0,9.8763
+grade,G,403536501.0,404331280.0,0.197
+int_rate,30.99,403536501.0,420545042.0,4.2149
+term_months,60,403536501.0,414651193.0,2.7543
+fico_range_low,660,403536501.0,411737399.0,2.0323
